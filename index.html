@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio.vignesh</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f3303bd353.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi,I'm<span> Vignesh ks</span><br>from India</h1>
+            </div>
+        </div>
+    </div>
+    <!-- --------------about----------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hello, I'm vignesh ks
+                        A highly skilled and passionate Web Developer and Python Developer.
+                        With a strong background in both fields,
+                        I specialize in creating engaging and functional web applications while leveraging the power of Python for robust back-end development.
+                        I thrive in collaborative environments and take pride in delivering high-quality solutions that meet client needs.
+                        Explore my portfolio to discover my diverse skill set and impactful projects.</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Front-End Development</span><br>Developing web page with Html ,Css and Java Script</li>
+                                <li><span>Back-End Development</span><br>Java and DataBase-Mongodb</li>
+                                <li><span>Java</span><br>Object oriented programming and data structures</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2023-2024 - Ongoing</span><br>Web Development Internship-TechnoHacks</li>
+                                <li><span>2023-2024</span><br>Personal portfolio website using html, css and javascript</li>
+                                <li><span>2023-2024</span><br>Women Safety Application using Java</li>
+                                
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2020-2024</span><br>BE-Computer science and engineering at velammal institute of technology</li>
+                                <li><span>2019-2020</span><br>HSC at padma sarangapani matriculation higher secondary school</li>
+                                <li><span>2017-2018</span><br>SSLC at padma sarangapani matriculation higher secondary school</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ---------services--------------------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Developer</h2>
+                    <p>I specialize in developing robust backend services for web applications, proficient in 
+                        handling data processing and building RESTful APIs for efficient communication. 
+                        My focus lies in creating scalable solutions that facilitate seamless 
+                        data management and interaction</p>
+                        <a href="https://en.wikipedia.org/wiki/Web_developer">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-laptop"></i>
+                    <h2>Software Engineer</h2>
+                    <p>As a skilled Software Engineer, I excel in designing and developing robust software solutions, 
+                        proficient in implementing scalable architectures and ensuring efficient data management. 
+                        My expertise lies in crafting reliable and high-performance applications, emphasizing 
+                        innovation and problem-solving in every project.</p>
+                        <a href="https://kingdomofjobs.com/software-engineer-job-description/">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div> 
+
+    <!-- -------------------------portfolio--------------------------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>Portfolio Website</h3>
+                        <p>Explore my professional journey and innovative projects 
+                            showcasing on my curated personal portfolio website.</p>
+                        <a href="http://127.0.0.1:5500/index.html#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>Women Safety Application</h3>
+                        <p>LadyBuddy application, A Complete women safety app with Emergency SOS 
+                            Service and Hidden camera detection.</p>
+                        <a href="https://github.com/vicky-carlo/lady-buddy-application"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Stop Watch Program</h3>
+                        <p>A simple, user-friendly online stopwatch for 
+                            accurate time tracking and measurement.</p>
+                        <a href="https://github.com/vicky-carlo/stopwatch-program"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/vicky-carlo?tab=repositories" class="btn">See More</a>
+            
+        </div>
+    </div>
+    <!-- -----------------------------content----------------------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p> <i class="fa-solid fa-paper-plane"></i> vigneshks103@gmail.com</p>
+                    <p> <i class="fa-solid fa-mobile-screen"></i> 730-5557-513</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/dager.vicky/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com/Vignesh97237994"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/dager_ks/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/vignesh-ks-6b6ab1252/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/vigneshks-resume.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright <i class="fa-regular fa-copyright"></i> vicky. Made by vignesh</p>
+        </div>
+    </div>
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right= "0";
+        }
+        function closemenu(){
+            sidemenu.style.right= "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwE5mI55o2I2ydgnUALbZQP7zOEnw-2KddS3Rqxap09cLJC6TWqBTYHKjI9d_yNiTZI/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML= "message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+    
+</body>
+</html>
