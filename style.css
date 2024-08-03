@@ -27,6 +27,8 @@ nav{
     justify-content: space-between;
     flex-wrap: wrap;
 }
+
+
 .logo{
     width: 240px;
     padding-top: 10px;
@@ -345,7 +347,7 @@ nav .fa-solid{
         font-size: 25px;
     }
     nav ul{
-        background: #ff004f;
+        background-color: rgba(98, 34, 34, 0.516);
         position: fixed;
         top: 0;
         right: -200px;

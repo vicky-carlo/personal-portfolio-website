@@ -11,7 +11,8 @@
     <div id="header">
         <div class="container">
             <nav>
-                <img src="images/logo.png" class="logo">
+                <img src="images/logo.png" class="logo"
+                alt="logoimage">
                 <ul id="sidemenu">
                     <li><a href="#header">Home</a></li>
                     <li><a href="#about">About</a></li>
@@ -24,7 +25,7 @@
             </nav>
             <div class="header-text">
                 <p>Web Developer</p>
-                <h1>Hi,I'm<span> Vignesh ks</span><br>from India</h1>
+                <h1>Hi,I'm<span> VIGNESH K S</span><br>From Chennai</h1>
             </div>
         </div>
     </div>
@@ -38,9 +39,9 @@
                 <div class="about-col-2">
                     <h1 class="sub-title">About Me</h1>
                     <p>Hello, I'm vignesh ks
-                        A highly skilled and passionate Web Developer and Python Developer.
+                        A highly skilled and passionate Front-end Developer and Java Developer.
                         With a strong background in both fields,
-                        I specialize in creating engaging and functional web applications while leveraging the power of Python for robust back-end development.
+                        I specialize in creating engaging and functional web applications while leveraging the power of java for robust back-end development.
                         I thrive in collaborative environments and take pride in delivering high-quality solutions that meet client needs.
                         Explore my portfolio to discover my diverse skill set and impactful projects.</p>
 
@@ -52,7 +53,7 @@
                         <div class="tab-contents active-tab" id="skills">
                             <ul>
                                 <li><span>Front-End Development</span><br>Developing web page with Html ,Css and Java Script</li>
-                                <li><span>Back-End Development</span><br>Java and DataBase-Mongodb</li>
+                                <li><span>Back-End Development</span><br>Java and DataBase-MySQL</li>
                                 <li><span>Java</span><br>Object oriented programming and data structures</li>
                             </ul>
                         </div>
@@ -60,7 +61,7 @@
                             <ul>
                                 <li><span>2023-2024 - Ongoing</span><br>Web Development Internship-TechnoHacks</li>
                                 <li><span>2023-2024</span><br>Personal portfolio website using html, css and javascript</li>
-                                <li><span>2023-2024</span><br>Women Safety Application using Java</li>
+                                <li><span>2023-2024</span><br>Smart medicine suggestion box -Iot</li>
                                 
                             </ul>
                         </div>
@@ -108,30 +109,37 @@
             <h1 class="sub-title">My Work</h1>
             <div class="work-list">
                 <div class="work">
-                    <img src="images/work-1.png">
+                    <img 
+                    src="images/work-11.png"
+                    alt="portfolio-photo">
                     <div class="layer">
                         <h3>Portfolio Website</h3>
                         <p>Explore my professional journey and innovative projects 
                             showcasing on my curated personal portfolio website.</p>
-                        <a href="http://127.0.0.1:5500/index.html#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        <a href="https://vignesh-portfolio-vc.netlify.app/"><i class="fa-solid fa-up-right-from-square"></i></a>
                     </div>
                 </div>
                 <div class="work">
-                    <img src="images/work-2.png">
+                    <img 
+                    src="images/work-2.png"
+                    alt="cryptoapp-photo">
                     <div class="layer">
-                        <h3>Women Safety Application</h3>
-                        <p>LadyBuddy application, A Complete women safety app with Emergency SOS 
-                            Service and Hidden camera detection.</p>
-                        <a href="https://github.com/vicky-carlo/lady-buddy-application"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        <h3>Crypto stream website</h3>
+                        <p>This crypto stream website typically provides real-time data and news related to cryptocurrencies. These 
+                            websites are valuable resources for investors, traders,
+                            and anyone interested in the crypto market.</p>
+                        <a href="https://github.com/vicky-carlo/crypto-stream-website"><i class="fa-solid fa-up-right-from-square"></i></a>
                     </div>
                 </div>
                 <div class="work">
-                    <img src="images/work-3.png">
+                    <img 
+                    src="images/work-3.png"
+                    alt="stopwatch-photo">
                     <div class="layer">
                         <h3>Stop Watch Program</h3>
                         <p>A simple, user-friendly online stopwatch for 
                             accurate time tracking and measurement.</p>
-                        <a href="https://github.com/vicky-carlo/stopwatch-program"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        <a href="https://stopwatch-vc.netlify.app/"><i class="fa-solid fa-up-right-from-square"></i></a>
                     </div>
                 </div>
             </div>
@@ -153,7 +161,7 @@
                         <a href="https://www.instagram.com/dager_ks/"><i class="fa-brands fa-instagram"></i></a>
                         <a href="https://www.linkedin.com/in/vignesh-ks-6b6ab1252/"><i class="fa-brands fa-linkedin"></i></a>
                     </div>
-                    <a href="images/vigneshks-resume.pdf" download class="btn btn2">Download Resume</a>
+                    <a href="images/updated resume.pdf" download class="btn btn2">Download Resume</a>
                 </div>
                 <div class="contact-right">
                     <form name="submit-to-google-sheet">
@@ -167,53 +175,12 @@
             </div>
         </div>
         <div class="copyright">
-            <p>copyright <i class="fa-regular fa-copyright"></i> vicky. Made by vignesh</p>
+            <p>copyright <i class="fa-regular fa-copyright"></i> vicky. Made by vigneshks</p>
         </div>
     </div>
 
 
-    <script>
-        var tablinks = document.getElementsByClassName("tab-links");
-        var tabcontents = document.getElementsByClassName("tab-contents");
-        function opentab(tabname){
-            for(tablink of tablinks){
-                tablink.classList.remove("active-link");
-            }
-            for(tabcontent of tabcontents){
-                tabcontent.classList.remove("active-tab");
-            }
-            event.currentTarget.classList.add("active-link");
-            document.getElementById(tabname).classList.add("active-tab");
-        }
-    </script>
-    <script>
-        var sidemenu = document.getElementById("sidemenu");
-        function openmenu(){
-            sidemenu.style.right= "0";
-        }
-        function closemenu(){
-            sidemenu.style.right= "-200px";
-        }
-    </script>
-    <script>
-        const scriptURL = 'https://script.google.com/macros/s/AKfycbwE5mI55o2I2ydgnUALbZQP7zOEnw-2KddS3Rqxap09cLJC6TWqBTYHKjI9d_yNiTZI/exec'
-        const form = document.forms['submit-to-google-sheet']
-        const msg = document.getElementById("msg")
-      
-        form.addEventListener('submit', e => {
-          e.preventDefault()
-          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-            .then(response => {
-                msg.innerHTML= "message sent successfully"
-                setTimeout(function(){
-                    msg.innerHTML=""
-
-                },5000)
-                form.reset()
-            })
-            .catch(error => console.error('Error!', error.message))
-        })
-      </script>
     
+    <script src="script.js"></script>
 </body>
 </html>
